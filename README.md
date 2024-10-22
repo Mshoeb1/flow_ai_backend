@@ -42,13 +42,13 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/login, This path retrives the user data from the database and matches the provides credentials againts the stored data you have to provide all the required fields to get the user's credential.
-    -Mehtod POST
-    - if you failed to mention all the field like name, email, password it will through error like "required all fields". 
-    -on successful registration you will get users details along with jwt_token for detail overview please find the below image.
-    <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
-        <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/login_API_y1ppc5.png"/>
-    </div>
+- /login, This path retrives the user data from the database and matches the provides credentials againts the stored data you have to provide all the required fields to get the user's credential.
+- Mehtod POST
+- if you failed to mention all the field like name, email, password it will through error like "required all fields". 
+- on successful registration you will get users details along with jwt_token for detail overview please find the below image.
+<div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
+    <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/login_API_y1ppc5.png"/>
+</div>
 
 </details>
 
@@ -56,10 +56,10 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/transactions, This path stores the data provided by the user in the transactions you have to provide all the required fields like user_id, type, category, amount, date, description.
-    -Mehtod POST
+    - /transactions, This path stores the data provided by the user in the transactions you have to provide all the required fields like user_id, type, category, amount, date, description.
+    - Mehtod POST
     - if you failed to mention all the field it will through error like "required all fields". 
-    -on successful data updation you will get a response code or json message please find the below image.
+    - on successful data updation you will get a response code or json message please find the below image.
     <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
         <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/creating_transaction_ksslvb.png"/>
     </div>
@@ -70,9 +70,9 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/transactions, This path retrieves all the transactions from the trnsaction table we can add pagination to show the data according to the uses requirement
-    -Mehtod GET
-    -on successful request you will get a response in JSON format please find the below image.
+    - /transactions, This path retrieves all the transactions from the trnsaction table we can add pagination to show the data according to the uses requirement
+    - Mehtod GET
+    - on successful request you will get a response in JSON format please find the below image.
     <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
         <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/all_transactions_a9dtl3.png"/>
     </div>
@@ -83,8 +83,8 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/transactions/:id, This path retrieves the specific transactions according to the id provided by the user from the trnsaction table in order to access the exact data you have to parse id carefully via api to get the expected result.
-    -Mehtod GET
+    - /transactions/:id, This path retrieves the specific transactions according to the id provided by the user from the trnsaction table in order to access the exact data you have to parse id carefully via api to get the expected result.
+    - Mehtod GET
     -on successful request you will get a response in JSON format please find the below image.
     <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
         <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/specific_transaction_xgvssl.png"/>
@@ -96,10 +96,10 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/transactions/:id, This path updated the specific transactions according to the id provided by the user from the trnsaction table we.
-    -Mehtod PUT
-    -we have to set the updated input field againts the data which are present in the table
-    -on successful request you will get a response message please find the below image.
+    - /transactions/:id, This path updated the specific transactions according to the id provided by the user from the trnsaction table we.
+    - Mehtod PUT
+    - we have to set the updated input field againts the data which are present in the table
+    - on successful request you will get a response message please find the below image.
     <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
         <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/updating_transaction_malymt.png"/>
     </div>
@@ -110,9 +110,9 @@ In this assigment we are going to develop node-js application to manage the tran
 
 <details>
 <summary>Click to view</summary>
-    -/transactions/:id, This path deletes the specific transactions according to the id provided by the user from the trnsaction table we.
-    -Mehtod DELETE
-    -on successful request you will get a response message please find the below image.
+    - /transactions/:id, This path deletes the specific transactions according to the id provided by the user from the trnsaction table we.
+    - Mehtod DELETE
+    - on successful request you will get a response message please find the below image.
     <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
         <img src="https://res.cloudinary.com/dwekbzmuw/image/upload/v1729618980/deleting_specific_transactions_lxzcgj.png"/>
     </div>
